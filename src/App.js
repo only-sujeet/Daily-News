@@ -12,7 +12,7 @@ import {
 
 } from "react-router-dom";
 function App() {
-  let apiKey = process.env.REACT_APP__NEWS_API
+  let apiKey = "8b3eaf4efbd0499f8119502e51e109f8"
   const [mode, setMode] = useState("light")
   const ToggleMode = () => {
     if (mode === "light") {
